@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helper_functions"
+version = "0.1.0"
+description = "Library for Microsoft Fabric utilities"
+readme = "README.md"
+authors = [
+  { name = "Philipp Meindl" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "requests"
+]
+
+[tool.setuptools]
+packages = { find = {} }
